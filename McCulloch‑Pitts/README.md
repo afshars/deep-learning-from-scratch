@@ -5,39 +5,61 @@
 
 ---
 
-### 📄 Project Overview
+## 📄 Project Overview
 
-This notebook explores and implements the **McCulloch–Pitts (M-P) neuron**, the first mathematical model of an artificial neuron and a foundational concept in modern neural networks.
+This project explores and implements the **McCulloch–Pitts (M-P) neuron**, the first mathematical model of an artificial neuron and a foundational concept in modern neural networks.
 
-It focuses on **building neural network logic from scratch**, revealing the inner workings of simple neurons using weighted inputs, thresholds, and activation functions.  
-You’ll see both the **power and the limits** of single-layer neural models in action.
+The notebook focuses on building neural computation **from scratch**, demonstrating how weighted inputs, thresholds (θ), and step activation functions produce logical decision-making behavior.
 
-#### **Key Topics & Experiments:**
-- ✅ Simulation of logic gates (**AND**, **OR**) using McCulloch–Pitts neurons  
-- ✅ Modeling hot & cold physiological perception with a simple multi-neuron network  
-- ✅ Demonstrating why some problems (like **XOR**) cannot be solved by single-layer models  
-- ✅ Exploring how weights and thresholds impact neuron decisions  
-- ✅ Step-by-step construction of small neural networks with M-P neurons  
-- ✅ Truth table validation and logical behavior analysis
-
-> This notebook is an **educational and conceptual introduction** to neural network fundamentals—from the classic M-P model to the roots of modern AI.
+Through practical implementations, this project reveals both the **capabilities and limitations** of single-layer neural models.
 
 ---
 
-### 🚀 Usage
+## 🧠 Key Topics & Experiments
 
-1. Clone this repository or download the notebook file.
-2. Open `McCulloch‑Pitts.ipynb` in Jupyter (or VS Code, Colab, etc.).
-3. Run the cells top to bottom to reproduce all experiments and see results.
-4. All code is pure Python—no neural network libraries required.
+- ✅ Implementation of logic gates (**AND**, **OR**) using M-P neurons  
+- ✅ Multi-neuron modeling of **Hot & Cold physiological perception**  
+- ✅ Demonstration of the **XOR limitation** in single-layer networks  
+- ✅ Analysis of weights and threshold effects on decision boundaries  
+- ✅ Step-by-step construction of interconnected neural units  
+- ✅ Truth table validation for logical correctness  
 
 ---
 
-### 👤 About the Author
+## ⚙️ Technical Details
 
-**Sara Afshar**  
-Python Developer specializing in Generative AI
-Focused on large language models, neural network fundamentals, and intelligent system design.
+The implemented neuron follows the formal definition:
 
-🔗 [GitHub](https://github.com/afshars)  
-🔗 [LinkedIn](https://www.linkedin.com/in/sara-m-afshar/)
+\[
+y =
+\begin{cases}
+1 & \text{if } \sum w_i x_i \geq \theta \\
+0 & \text{otherwise}
+\end{cases}
+\]
+
+Where:
+- \( x_i \) = inputs  
+- \( w_i \) = weights  
+- \( \theta \) = threshold  
+- Activation function = Step function  
+
+All implementations are written in **pure Python**, without using machine learning libraries.
+
+---
+
+## 📂 Project Structure
+
+- Contains theoretical explanation
+- Step-by-step code implementation
+- Experimental demonstrations
+- Logical validation tables
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository:
+```bash
+   git clone https://github.com/afshars/your-repo-name.git
+   
