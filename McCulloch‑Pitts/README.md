@@ -36,8 +36,7 @@ You’ll see both the **power and the limits** of single-layer neural models in 
 ### 👤 About the Author
 
 **Sara Afshar**  
-Python Developer (Generative AI & LLMs)  
-
+Python Developer specializing in Generative AI
 Focused on large language models, neural network fundamentals, and intelligent system design.
 
 🔗 [GitHub](https://github.com/afshars)  
