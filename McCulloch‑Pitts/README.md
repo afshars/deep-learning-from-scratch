@@ -61,9 +61,9 @@ All implementations are written in **pure Python**, without using machine learni
 
 2. Open the notebook:
    
--McCulloch-Pitts.ipynb
+- McCulloch-Pitts.ipynb
 
-4. Run the cells sequentially in:
+3. Run the cells sequentially in:
 
 - Jupyter Notebook  
 - VS Code  
