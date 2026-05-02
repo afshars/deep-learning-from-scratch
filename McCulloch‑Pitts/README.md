@@ -62,4 +62,40 @@ All implementations are written in **pure Python**, without using machine learni
 1. Clone this repository:
 ```bash
    git clone https://github.com/afshars/your-repo-name.git
-   
+```
+
+2. Open the notebook:
+   McCulloch-Pitts.ipynb
+
+3. Run the cells sequentially in:
+
+- Jupyter Notebook  
+- VS Code  
+- Google Colab  
+
+No external machine learning libraries are required.
+
+---
+
+## 🎯 Learning Outcomes
+
+After exploring this notebook you will:
+
+- Understand the mathematical foundation of early neural networks
+- See how logical functions can be modeled using artificial neurons
+- Learn why the **XOR problem** requires multi-layer neural architectures
+- Build intuition for the evolution from simple neurons to modern deep learning models
+
+---
+
+## 👤 About the Author
+
+**Sara Afshar**  
+Python Developer specializing in Generative AI  
+
+Focused on **Large Language Models (LLMs)**, neural network fundamentals, and intelligent system development.
+
+🔗 GitHub: https://github.com/afshars  
+🔗 LinkedIn: https://www.linkedin.com/in/sara-m-afshar/
+
+
