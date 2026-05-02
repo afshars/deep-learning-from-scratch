@@ -30,13 +30,8 @@ Through practical implementations, this project reveals both the **capabilities 
 
 The implemented neuron follows the formal definition:
 
-\[
-y =
-\begin{cases}
-1 & \text{if } \sum w_i x_i \geq \theta \\
-0 & \text{otherwise}
-\end{cases}
-\]
+y = 1  if  Σ(wᵢxᵢ) ≥ θ  
+y = 0  otherwise
 
 Where:
 - \( x_i \) = inputs  
@@ -65,9 +60,10 @@ All implementations are written in **pure Python**, without using machine learni
 ```
 
 2. Open the notebook:
-   McCulloch-Pitts.ipynb
+   
+-McCulloch-Pitts.ipynb
 
-3. Run the cells sequentially in:
+4. Run the cells sequentially in:
 
 - Jupyter Notebook  
 - VS Code  
