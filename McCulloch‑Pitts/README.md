@@ -86,7 +86,7 @@ After exploring this notebook you will:
 
 ## 👤 About the Author
 
-**Sara Afshar**  
+**Sarah Afshar**  
 Python Developer specializing in Generative AI  
 
 Focused on **Large Language Models (LLMs)**, neural network fundamentals, and intelligent system development.
