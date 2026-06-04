@@ -56,7 +56,7 @@ All implementations are written in **pure Python**, without using machine learni
 
 1. Clone this repository:
 ```bash
-   git clone https://github.com/afshars/your-repo-name.git
+   git clone https://github.com/afshars/deep-learning-from-scratch.git
 ```
 
 2. Open the notebook:
