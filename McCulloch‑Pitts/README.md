@@ -5,7 +5,7 @@
 
 ---
 
-## 📄 Project Overview
+## Project Overview
 
 This project explores and implements the **McCulloch–Pitts (M-P) neuron**, the first mathematical model of an artificial neuron and a foundational concept in modern neural networks.
 
@@ -15,18 +15,18 @@ Through practical implementations, this project reveals both the **capabilities 
 
 ---
 
-## 🧠 Key Topics & Experiments
+## Key Topics & Experiments
 
-- ✅ Implementation of logic gates (**AND**, **OR**) using M-P neurons  
-- ✅ Multi-neuron modeling of **Hot & Cold physiological perception**  
-- ✅ Demonstration of the **XOR limitation** in single-layer networks  
-- ✅ Analysis of weights and threshold effects on decision boundaries  
-- ✅ Step-by-step construction of interconnected neural units  
-- ✅ Truth table validation for logical correctness  
+- Implementation of logic gates (**AND**, **OR**) using M-P neurons  
+- Multi-neuron modeling of **Hot & Cold physiological perception**  
+- Demonstration of the **XOR limitation** in single-layer networks  
+- Analysis of weights and threshold effects on decision boundaries  
+- Step-by-step construction of interconnected neural units  
+- Truth table validation for logical correctness  
 
 ---
 
-## ⚙️ Technical Details
+## Technical Details
 
 The implemented neuron follows the formal definition:
 
@@ -43,7 +43,7 @@ All implementations are written in **pure Python**, without using machine learni
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - Contains theoretical explanation
 - Step-by-step code implementation
@@ -52,7 +52,7 @@ All implementations are written in **pure Python**, without using machine learni
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository:
 ```bash
@@ -73,7 +73,7 @@ No external machine learning libraries are required.
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 After exploring this notebook you will:
 
@@ -86,7 +86,7 @@ After exploring this notebook you will:
 
 ## 👤 About the Author
 
-**Sarah Afshar**  
+**Sarah M. Afshar**  
 Python Developer specializing in Generative AI  
 
 Focused on **Large Language Models (LLMs)**, neural network fundamentals, and intelligent system development.
