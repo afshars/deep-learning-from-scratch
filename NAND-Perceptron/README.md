@@ -5,17 +5,16 @@
 
 ---
 
-## 📄 Project Overview
+## Project Overview
 
 This project implements the **perceptron** (Rosenblatt, 1958), the simplest trainable neural model, and teaches it the **NAND** gate **from scratch**.
 
 Unlike the McCulloch–Pitts neuron, whose weights are chosen by hand, the perceptron **learns** its weights with an error-driven update rule. The notebook prints every training step, so the whole weight-update process can be followed by hand.
 
-The project is based on **Assignment 1, Question 2** of the *Neural Networks & Deep Learning (NNDL)* course.
 
 ---
 
-## 🧠 Key Topics & Experiments
+## Key Topics & Experiments
 
 - ✅ Training a single perceptron on the **NAND** truth table (bipolar encoding)
 - ✅ Step-by-step **weight-update table** (net, output, error, Δw, new weights)
@@ -26,7 +25,7 @@ The project is based on **Assignment 1, Question 2** of the *Neural Networks & D
 
 ---
 
-## ⚙️ Technical Details
+## Technical Details
 
 The perceptron computes
 
@@ -54,7 +53,7 @@ All implementations are written in **pure Python**, without using machine learni
 
 ---
 
-## 📊 Results
+## Results
 
 With **θ = 0.2, α = 1, b = 0, w = 0** the perceptron converges after **2 epochs** (one to learn, one to verify):
 
@@ -82,7 +81,7 @@ Other settings give other (equally correct) solutions:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 nand-perceptron/
@@ -104,7 +103,7 @@ nand-perceptron/
 
 1. Clone this repository:
 ```bash
-   git clone https://github.com/afshars/nand-perceptron.git
+   git clone https://github.com/afshars/deep-learning-from-scratch.git
 ```
 
 2. Open the notebook:
@@ -121,7 +120,7 @@ No external libraries are required (Python 3.8+).
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 After exploring this notebook you will:
 
@@ -132,7 +131,7 @@ After exploring this notebook you will:
 
 ---
 
-## 📄 License
+## License
 
 This project is released under the [MIT License](LICENSE).
 
@@ -140,7 +139,7 @@ This project is released under the [MIT License](LICENSE).
 
 ## 👤 About the Author
 
-**Sarah Afshar**  
+**Sarah M Afshar**  
 Python Developer specializing in Generative AI  
 
 Focused on **Large Language Models (LLMs)**, neural network fundamentals, and intelligent system development.
