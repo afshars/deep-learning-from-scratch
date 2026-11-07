@@ -16,12 +16,12 @@ Unlike the McCulloch–Pitts neuron, whose weights are chosen by hand, the perce
 
 ## Key Topics & Experiments
 
-- ✅ Training a single perceptron on the **NAND** truth table (bipolar encoding)
-- ✅ Step-by-step **weight-update table** (net, output, error, Δw, new weights)
-- ✅ Hand-checked walkthrough of the first training step
-- ✅ **Decision boundary** and the undecided band **net = ±θ**
-- ✅ Effect of **θ, α, initial bias, initial weights and pattern order** on the final solution
-- ✅ Demonstration of the **XOR limitation** (no convergence)
+✅ Training a single perceptron on the **NAND** truth table (bipolar encoding)
+✅ Step-by-step **weight-update table** (net, output, error, Δw, new weights)
+✅ Hand-checked walkthrough of the first training step
+✅ **Decision boundary** and the undecided band **net = ±θ**
+✅ Effect of **θ, α, initial bias, initial weights and pattern order** on the final solution
+✅ Demonstration of the **XOR limitation** (no convergence)
 
 ---
 
