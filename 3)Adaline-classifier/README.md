@@ -17,11 +17,12 @@ Adaline differs from the perceptron in one key way: the error is measured on the
 ## Key Topics & Experiments
 
 - Generating three **Gaussian** classes (100, 100 and 200 points, std = 0.2)
+- Design of a **single-layer network**: 2 inputs, 3 Adaline output neurons
 - **One-vs-rest** targets: one Adaline per class
 - The **delta rule (LMS)** and the MSE learning curve
 - **Decision lines** (net = 0) and the final decision regions
 - **Confusion matrix** and accuracy
-- Effect of the **learning rate α**, including divergence
+- Effect of the **learning rate α** on training speed and results, including divergence
 
 ---
 
@@ -62,14 +63,14 @@ The final classification (largest net input) labels **400 / 400** points correct
 
 Effect of the learning rate (same initial values every time):
 
-| α | Mean final MSE | Accuracy | Diverged |
-|---|---|---|---|
-| 0.000001 | 0.7980 | 50.5% | no |
-| 0.00009 | 0.0619 | 100% | no |
-| 0.001 | 0.0586 | 100% | no |
-| 0.01 | 0.1197 | 99.8% | no |
-| 0.1 | 0.6235 | 56.2% | no |
-| 0.3 | huge | 25.0% | yes |
+| α | Epochs to MSE ≤ 0.1 | Mean final MSE | Accuracy | Diverged |
+|---|---|---|---|---|
+| 0.000001 | never | 0.7980 | 50.5% | no |
+| 0.00009 | 472 | 0.0619 | 100% | no |
+| 0.001 | 47 | 0.0586 | 100% | no |
+| 0.01 | never | 0.1197 | 99.8% | no |
+| 0.1 | never | 0.6235 | 56.2% | no |
+| 0.3 | never | huge | 25.0% | yes |
 
 <div align="center">
   <img src="images/decision_lines.png" width="450">
@@ -85,7 +86,7 @@ adaline-classifier/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-└── images/            # figures used in the notebook
+└── images/            # figures used in the notebook (network, data, MSE curves, decision lines)
 ```
 
 - Contains theoretical explanation
@@ -104,7 +105,7 @@ adaline-classifier/
 
 2. Open the notebook:
 
-- Adaline.ipynb
+- adaline-classifier/Adaline.ipynb
 
 3. Run the cells sequentially in:
 
